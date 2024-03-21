@@ -1,4 +1,4 @@
-# Below is the R code used to generate Figures-1, 2 and S1 for PCa LN mets project published in Nature Communications.
+# R code to generate Figures-1, 2 and S1 for PCa LN mets project published in Nature Communications.
 
 PCa-LNmets
 ================
