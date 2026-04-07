@@ -1,6 +1,6 @@
 # Figures for PCa LN mets [paper](https://www.nature.com/articles/s41467-024-48629-y) published in nature communications.
 
-Author: Srinivas Nallandhighal
+# Author: Srinivas Nallandhighal
 
 # Prepare files for Figure-1
 
