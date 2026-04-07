@@ -1,10 +1,8 @@
-# R code to generate Figures-1, 2 and S1 for PCa LN mets project published in Nature Communications.
+# R code to generate Figures for PCa LN mets [paper](https://www.nature.com/articles/s41467-024-48629-y) published in nature communications.
 
-PCa-LNmets
-================
-Srinivas Nallandhighal
+Author: Srinivas Nallandhighal
 
-Prepare files for Figure-1
+# Prepare files for Figure-1
 
 ``` r
 ### Pheno file
@@ -234,7 +232,7 @@ ha2 = HeatmapAnnotation(df=data.frame(cnv.anno[,-1],row.names = rownames(cnv.ann
                         show_legend = T,annotation_name_gp = gpar(fontsize = 8))
 ```
 
-Plot Figure-1
+# Plot Figure-1
 
 ``` r
 ht_list = 
@@ -250,7 +248,7 @@ draw(ht_list,heatmap_legend_side = "bottom",merge_legend=T,show_heatmap_legend =
 
 ![](Title_files/figure-gfm/Plot%20Figure-1-1.png)<!-- -->
 
-Prepare files for Figure-2
+# Prepare files for Figure-2
 
 ``` r
 ### Bed File
@@ -329,7 +327,7 @@ mat.nj[[i]]$edge.length <- round(mat.nj[[i]]$edge.length,digits = 2)
 }
 ```
 
-Plot Figure-2A
+# Plot Figure-2A
 
 ``` r
 plot(mat.nj[[1]], 'unrooted',show.tip.label=T,cex=1,direction = "downwards",main="PT-1")
@@ -790,7 +788,7 @@ ha2 = HeatmapAnnotation(df=data.frame(annot[,-c(1,2)],row.names = rownames(annot
                         show_legend = T,annotation_name_gp = gpar(fontsize = 8))
 ```
 
-Plot Figure-S1
+# Plot Figure-S1
 
 ``` r
 ht_list = 
