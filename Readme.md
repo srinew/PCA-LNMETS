@@ -1,4 +1,4 @@
-# R code to generate Figures for PCa LN mets [paper](https://www.nature.com/articles/s41467-024-48629-y) published in nature communications.
+# Figures for PCa LN mets [paper](https://www.nature.com/articles/s41467-024-48629-y) published in nature communications.
 
 Author: Srinivas Nallandhighal
 
